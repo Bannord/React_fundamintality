@@ -1,0 +1,52 @@
+.main_wrapper {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.remove-btn {
+  margin-right: 0.5rem;
+}
+
+.post-enter {
+  transform: translateX(-350px);
+}
+.post-enter-active {
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
+}
+.post-exit {
+  opacity: 1;
+}
+.post-exit-active {
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
+}
+
+.page_wrapper {
+  margin-top: 30px;
+  display: flex;
+  .page {
+    padding: 10px;
+    border: 1px solid teal;
+    cursor: pointer;
+  }
+
+  .page_current {
+    border: 2px solid orange;
+    font-weight: bold;
+  }
+}
+
+.navbar_wrapper {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+
+  background-color: rgb(235, 213, 213);
+
+  .navbal_links {
+    font-size: 23px;
+    margin-left: auto;
+  }
+}
